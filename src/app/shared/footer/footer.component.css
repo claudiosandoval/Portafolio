@@ -1,0 +1,47 @@
+footer .redes-sociales {
+    background: #000000;
+    padding: 10px 0px;
+}
+
+footer .redes-sociales .contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+footer .redes-sociales a {
+    color: #fff;
+    width: 80px;
+    text-align: center;
+    display: block;
+    padding: 10px 0px;
+    border-radius: 3px;
+    font-size: 30px;
+    margin: 0px 20px;
+    transition: 0.3s ease;
+}
+
+footer .redes-sociales .twitter:hover {
+    background: #1da1f2;
+}
+
+footer .redes-sociales .facebook:hover {
+    background: #3b5998;
+}
+
+footer .redes-sociales .youtube:hover {
+    background: #ff0000;
+}
+
+footer .redes-sociales .github:hover {
+    background: #333;
+}
+
+footer .redes-sociales .instagram:hover {
+    background: #e1306c;
+}
+
+.copyright {
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
