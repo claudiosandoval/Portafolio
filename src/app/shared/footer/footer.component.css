@@ -45,3 +45,14 @@ footer .redes-sociales .instagram:hover {
     text-align: center;
     padding: 10px;
 }
+
+@media screen and (max-width: 500px) {
+    footer .redes-sociales .contenedor {
+        flex-wrap: wrap;
+        /*padding: 20px 0px;*/
+    }
+    footer .redes-sociales .contenedor .twitter .facebook .youtube .github .instagram {
+        width: 30%;
+        margin: 20px 0;
+    }
+}
